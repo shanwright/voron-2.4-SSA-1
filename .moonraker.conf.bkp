@@ -5,7 +5,6 @@ klippy_uds_address = /home/pi/printer_data/comms/klippy.sock
 
 [authorization]
 trusted_clients = 
-	192.168.15.240
 	10.0.0.0/8
 	127.0.0.0/8
 	169.254.0.0/16
@@ -78,5 +77,6 @@ managed_services = klipper
 type = git_repo
 path = ~/crowsnest
 origin = https://github.com/mainsail-crew/crowsnest.git
+managed_services = crowsnest
 install_script = tools/pkglist.sh
 
