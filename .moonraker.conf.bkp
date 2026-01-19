@@ -13,7 +13,6 @@ trusted_clients =
 	169.254.0.0/16
 	172.16.0.0/12
 	192.168.0.0/16
-	192.168.15.240
 	FE80::/10
 	::1/128
 cors_domains = 
@@ -66,16 +65,6 @@ is_system_service = False
 managed_services = klipper
 info_tags = 
 	desc=Beacon Surface Scanner
-
-[update_manager Klippain-ShakeTune]
-type = git_repo
-origin = https://github.com/Frix-x/klippain-shaketune.git
-path = ~/klippain_shaketune
-virtualenv = ~/klippain_shaketune-env
-requirements = requirements.txt
-system_dependencies = system-dependencies.json
-primary_branch = main
-managed_services = klipper
 
 [update_manager crowsnest]
 type = git_repo

@@ -28,6 +28,7 @@ cors_domains =
 
 [history]
 
+<<<<<<< HEAD
 [update_manager]
 channel = dev
 refresh_interval = 168
@@ -97,3 +98,5 @@ channel = stable
 repo = mainsail-crew/mainsail
 path = ~/mainsail
 
+=======
+>>>>>>> c64e47b38c07727b60ea88b5a19a348b06911fe1
